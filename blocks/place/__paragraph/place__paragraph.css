@@ -1,0 +1,23 @@
+.place__paragraph:first-of-type {
+  margin: 0;
+}
+
+.place__paragraph {
+  margin: 1em 0 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media all and (max-width: 768px) {
+  .place__paragraph {
+    margin: 1em 0 0;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+

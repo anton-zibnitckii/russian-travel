@@ -4,3 +4,52 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
 @import url(./__website/place__website.css);
+@import url(./__paragraphs/place__paragraphs.css);
+
+.place {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  grid-gap: 2rem;
+  grid-template-areas:
+  "title website"
+  "image text";
+}
+
+
+@media screen and (min-width: 1280px) {
+  .place {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-gap: 2rem;
+    grid-template-areas:
+    "title website"
+    "image text";
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 28px;
+    grid-template-areas:
+    "title website"
+    "image text";
+  }
+}
+
+@media all and (max-width: 375px) {
+  .place {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text";
+  }
+}
