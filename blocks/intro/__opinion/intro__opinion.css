@@ -1,0 +1,28 @@
+.intro__opinion {
+  margin: 2em 0 0;
+  max-width: 43rem;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media all and (max-width: 768px) {
+  .intro__opinion {
+    margin: 2em 0 0;
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .intro__opinion {
+    margin: 2rem 0 0;
+    font-size: 1rem;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff;
+  }
+}

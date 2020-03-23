@@ -1,2 +1,26 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+  margin: 2em 2em 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .lead {
+    margin: 2em 9.5em 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin: 2em 9.25rem 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    margin: 2em 0 0;
+  }
+}
