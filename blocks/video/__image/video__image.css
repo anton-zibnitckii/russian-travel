@@ -1,0 +1,17 @@
+@import url(./_place/video__image_place-kamchtka.css);
+@import url(./_place/video__image_place-obrervatory.css);
+
+.video__image {
+  background-color: #000;
+  opacity: .9;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+  border-radius: 5px;
+}

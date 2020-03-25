@@ -4,10 +4,8 @@
   align-self: end;
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 767px) {
   .place__website {
-    margin: 0 0 0 1rem;
-    grid-area: website;
-    align-self: end;
+    display: none;
   }
 }

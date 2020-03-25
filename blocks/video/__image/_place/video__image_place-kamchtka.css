@@ -1,0 +1,40 @@
+.video__image_place-kamchatka {
+  width: 456px;
+  height: 288px;
+  background-image: url(../../../../images/kamch_456_258.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .video__image_place-kamchatka {
+    width: 583px;
+    height: 323px;
+    background-image: url(../../../../images/kam_583_323.png);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__image_place-kamchatka {
+    width: 352px;
+    height: 200px;
+    background-image: url(../../../../images/kam_352_200.png);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__image_place-kamchatka {
+    width: 343px;
+    height: 200px;
+    background-image: url(../../../../images/kam_343_200.png);
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__image_place-kamchatka {
+    width: 288px;
+    height: 192px;
+    background-image: url(../../../../images/kam_288_192.png);
+  }
+}

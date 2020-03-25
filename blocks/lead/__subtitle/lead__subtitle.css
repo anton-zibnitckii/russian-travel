@@ -8,14 +8,17 @@
   white-space: pre;
 }
 
+@media all and (max-width: 767px) {
+  .lead__subtitle {
+    margin: calc(8px + (48 - 8)*(100vw - 376px)/(767 - 376)) auto 0;
+    font-size: calc(16px + (30 - 16)*(100vw - 376px)/(767 - 376));
+    line-height: 143%;
+  }
+}
+
 @media all and (max-width: 375px) {
   .lead__subtitle {
     margin: .5rem auto 0;
     font-size: 1rem;
-    line-height: 23px;
-    font-weight: 400;
-    text-align: center;
-    color: #fff;
-    white-space: pre;
   }
 }

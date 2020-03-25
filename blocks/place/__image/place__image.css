@@ -10,21 +10,11 @@
 @media all and (max-width: 768px) {
   .place__image {
     margin: 40px 0 0;
-    width: 100%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    grid-area: image;
   }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 767px) {
   .place__image {
-    margin: 1rem 0 0;
-    width: 100%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    grid-area: image;
+    margin: 2rem 0 0;
   }
 }

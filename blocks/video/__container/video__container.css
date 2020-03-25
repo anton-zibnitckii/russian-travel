@@ -1,0 +1,29 @@
+.video__container {
+  margin: 3em auto 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1rem 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+@media all and (min-width: 1280px) {
+  .video__container {
+    grid-gap: 18px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .video__container {
+    margin: 3.5rem auto 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .video__container {
+    margin: 1em auto 0;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+  }
+}
