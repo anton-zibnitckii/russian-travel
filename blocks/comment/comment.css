@@ -1,0 +1,22 @@
+@import url(./__quote/comment__quote.css);
+@import url(./__image/comment__image.css);
+@import url(./__author/comment__author.css);
+@import url(./__text/comment__text.css);
+
+.comment {
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1023px) {
+  .comment {
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "image"
+    "author"
+    "quote";
+  }
+}

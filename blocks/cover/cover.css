@@ -1,0 +1,36 @@
+@import url(./__image/cover__image.css);
+@import url(./__opacity/cover__opacity.css);
+@import url(./__link/cover__link.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  position: relative;
+  max-width: 1024px;
+  margin: 4.25em auto 0;
+  z-index: 2;
+}
+
+.cover:hover .cover__opacity {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    margin: calc(64px + (102 - 64)*(100vw - 376px)/(768 - 376)) auto 0;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .cover {
+    max-width: 767px;
+    margin: 4rem auto 0;
+  }
+}

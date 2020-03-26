@@ -1,0 +1,58 @@
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraphs/place__paragraphs.css);
+
+.place {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 440px 2rem 1fr;
+  grid-template-columns: 440px 1fr;
+  grid-gap: 2rem;
+  -ms-grid-rows: auto 2rem auto;
+  grid-template-areas:
+  "title website"
+  "image text";
+}
+
+
+
+@media screen and (max-width: 1280px) {
+  .place {
+    -ms-grid-columns: calc(440px + (460 - 440)*(100vw - 1025px)/(1280 - 1025)) calc(32px + (40 - 32)*(100vw - 1025px)/(1179 - 1025)) 1fr;
+    grid-template-columns: calc(440px + (460 - 440)*(100vw - 1025px)/(1280 - 1025)) 1fr;
+    grid-gap: calc(32px + (40 - 32)*(100vw - 1025px)/(1179 - 1025));
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .place {
+    -ms-grid-columns: calc(340px + (440 - 340)*(100vw - 769px)/(1024 - 769)) calc(28px + (32 - 28)*(100vw - 769px)/(1024 - 769)) 1fr;
+    grid-template-columns: calc(340px + (440 - 340)*(100vw - 769px)/(1024 - 769)) 1fr;
+    grid-gap: calc(28px + (32 - 28)*(100vw - 769px)/(1024 - 769));
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place {
+    -ms-grid-columns: 340px 28px 1fr;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 28px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

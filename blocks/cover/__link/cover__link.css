@@ -1,0 +1,47 @@
+.cover__link {
+  text-decoration: none;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+}
+
+/* Вот это выдал автопрефиксер и я не совсем понимаю как это работает
+  .cover__link {
+  text-decoration: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+  grid-template-rows: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+}.cover__link > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}.cover__link > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}.cover__link > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}.cover__link > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}.cover__link > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}.cover__link > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}.cover__link > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}.cover__link > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}.cover__link > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+*/

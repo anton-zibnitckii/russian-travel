@@ -1,0 +1,34 @@
+.content-title {
+  margin: 0 auto;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #fff;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+@media all and (max-width: 1023px) {
+  .content-title {
+    font-size: calc(42px + (72 - 42)*(100vw - 769px)/(1023 - 769));
+  }
+}
+
+@media all and (max-width: 768px) {
+  .content-title {
+    font-size: 42px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .content-title {
+    font-size: calc(32px + (42 - 32)*(100vw - 376px)/(767 - 376));
+  }
+}
+
+@media all and (max-width: 375px) {
+  .content-title {
+    font-size: 2rem;
+  }
+}
+

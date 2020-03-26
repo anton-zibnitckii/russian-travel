@@ -1,0 +1,10 @@
+.header__item_value-ru {
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.header__item_value-ru:hover {
+  text-decoration: underline;
+  opacity: .4;
+}

@@ -1,0 +1,27 @@
+.lead__caption {
+  margin: 1rem 0 0;
+  font-size: .625rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media all and (max-width: 1023px) {
+  .lead__caption {
+    margin: 1rem 0 0 3rem;
+    }
+  }
+
+@media all and (max-width: 768px) {
+  .lead__caption {
+    margin: 1rem 0 0 2em;
+    }
+  }
+
+@media all and (max-width: 375px) {
+  .lead__caption {
+    margin: .5rem 0 0 1rem;
+    }
+  }

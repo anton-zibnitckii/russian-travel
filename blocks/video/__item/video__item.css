@@ -1,0 +1,37 @@
+.video__item {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  z-index: 1;
+}
+
+.video__item:hover .video__image {
+  opacity: .6;
+}
+
+/* Опять что-то несуразное
+
+.video__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+  grid-template-rows: repeat(3, 1fr);
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  z-index: 1;
+}.video__item > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}.video__item > *:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}.video__item > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.video__item:hover .video__image {
+  opacity: .6;
+}
+
+*/

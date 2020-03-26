@@ -1,0 +1,14 @@
+.photo-grid__item {
+  margin: 0;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.photo-grid__item:hover {
+  opacity: .8;
+}

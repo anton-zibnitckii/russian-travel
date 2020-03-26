@@ -1,0 +1,18 @@
+.video__subtitle {
+  margin: 18px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+@media all and (max-width: 1023px) {
+  .video__subtitle {
+    margin: 12px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .video__subtitle {
+    margin: 2px 0 0;
+  }
+}

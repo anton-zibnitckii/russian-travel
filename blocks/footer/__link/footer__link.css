@@ -1,0 +1,31 @@
+.footer__link {
+  margin: 0 18px 0 0;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link {
+    font-size: calc(16px + (24 - 16)*(100vw - 769px)/(1023 - 769));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0;
+    line-height: 41px;
+  }
+}

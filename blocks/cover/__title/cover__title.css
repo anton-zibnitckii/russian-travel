@@ -1,0 +1,30 @@
+.cover__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 3em;
+  line-height: 1.1;
+  text-align: center;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  z-index: 1;
+  white-space: pre;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__title {
+    white-space: normal;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 2rem;
+  }
+}
