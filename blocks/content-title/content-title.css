@@ -8,12 +8,6 @@
   white-space: pre-wrap;
 }
 
-@media all and (max-width: 1023px) {
-  .content-title {
-    font-size: calc(42px + (72 - 42)*(100vw - 769px)/(1023 - 769));
-  }
-}
-
 @media all and (max-width: 768px) {
   .content-title {
     font-size: 42px;
@@ -22,13 +16,8 @@
 
 @media all and (max-width: 767px) {
   .content-title {
-    font-size: calc(32px + (42 - 32)*(100vw - 376px)/(767 - 376));
+    font-size: 2rem
   }
 }
 
-@media all and (max-width: 375px) {
-  .content-title {
-    font-size: 2rem;
-  }
-}
 

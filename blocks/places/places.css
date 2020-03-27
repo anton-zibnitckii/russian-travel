@@ -25,7 +25,7 @@
 @media all and (max-width: 768px) {
   .places {
     max-width: 720px;
-    margin: calc(64px + (102 - 64)*(100vw - 376px)/(768 - 376)) 1em 0;
+    margin: 3rem 1em 0;
   }
 }
 

@@ -7,13 +7,6 @@
   color: #fff;
 }
 
-@media all and (max-width: 767px) {
-  .intro__opinion {
-    margin: calc(32px + (48 - 32)*(100vw - 376px)/(767 - 376)) 0 0;
-    font-size: calc(14px + (16 - 14)*(100vw - 376px)/(767 - 376));
-  }
-}
-
 @media all and (max-width: 375px) {
   .intro__opinion {
     margin: 2rem 0 0;

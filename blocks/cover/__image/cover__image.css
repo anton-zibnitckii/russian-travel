@@ -5,6 +5,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000;
+  opacity: .9;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+  z-index: 0;
 }
 
 @media screen and (min-width: 1280px) {

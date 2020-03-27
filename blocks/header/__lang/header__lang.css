@@ -1,4 +1,23 @@
+@import url(./_status/header__lang_status-active.css);
+
 .header__lang {
-  list-style-type: none;
-  display: inline;
+  margin-left: 18px;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 23px;
+  font-weight: 400;
+  color: #fff;
+  transition: opacity .3s ease;
+}
+
+.header__lang:hover {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 375px) {
+  .header__lang {
+    font-size: 18px;
+  }
+
 }

@@ -6,17 +6,9 @@
   color: #fff;
   white-space: pre;
   grid-area: title;
-  align-self: end;
 }
 
 @media all and (max-width: 1023px) {
-  .place__title {
-    font-size: calc(42px + (72 - 42)*(100vw - 769px)/(1023 - 769));
-    line-height: 0.9;
-  }
-}
-
-@media all and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
@@ -25,14 +17,13 @@
 
 @media all and (max-width: 767px) {
   .place__title {
-    font-size: calc(32px + (42 - 32)*(100vw - 376px)/(767 - 376));
+    font-size: 2rem;
   }
 }
 
 @media all and (max-width: 375px) {
   .place__title {
     margin: 0 0 0 1rem;
-    font-size: 2rem;
     line-height: 1.7;
     white-space: nowrap;
   }

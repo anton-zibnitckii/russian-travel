@@ -1,7 +1,5 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
-@import url(./__list/footer__list.css);
-@import url(./__item/footer__item.css);
 
 .footer {
   max-width: 928px;
@@ -34,10 +32,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     max-width: 722px;
-    margin: calc(64px + (102 - 64)*(100vw - 376px)/(768 - 376)) 1em 0;
+    margin: 4rem 1em 0;
     padding-bottom: 1em;
     display: -webkit-box;
     display: -ms-flexbox;

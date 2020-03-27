@@ -2,4 +2,13 @@
   margin: 0 auto;
   text-decoration: none;
   color: #fff;
+  display: grid;
+  -ms-grid: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  z-index: 1;
+}
+
+.video__link:hover .video__image {
+  opacity: .6;
 }

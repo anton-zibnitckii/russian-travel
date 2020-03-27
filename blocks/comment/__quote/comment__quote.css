@@ -1,5 +1,17 @@
 .comment__quote {
-  margin: 0;
+  margin: 42px 0 0;
   padding: 0;
   grid-area: quote;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media all and (max-width: 1023px) {
+  .comment__quote {
+    margin: 24px 0 0;
+    font-size: 16px;
+    line-height: 27px;
+  }
 }

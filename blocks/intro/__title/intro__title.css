@@ -6,15 +6,9 @@
   color: #fff;
 }
 
-@media screen and (max-width: 767px) {
-  .intro__title {
-    font-size: calc(32px + (54 - 32)*(100vw - 376px)/(768 - 376));
-    white-space: pre;
-  }
-}
-
 @media all and (max-width: 375px) {
   .intro__title {
     font-size: 2rem;
+    white-space: pre;
   }
 }

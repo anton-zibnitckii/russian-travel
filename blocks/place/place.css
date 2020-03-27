@@ -21,19 +21,19 @@
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .place {
-    -ms-grid-columns: calc(440px + (460 - 440)*(100vw - 1025px)/(1280 - 1025)) calc(32px + (40 - 32)*(100vw - 1025px)/(1179 - 1025)) 1fr;
-    grid-template-columns: calc(440px + (460 - 440)*(100vw - 1025px)/(1280 - 1025)) 1fr;
-    grid-gap: calc(32px + (40 - 32)*(100vw - 1025px)/(1179 - 1025));
+    -ms-grid-columns: 460px 40px 1fr;
+    grid-template-columns: 460px 1fr;
+    grid-gap: 40px;
   }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
   .place {
-    -ms-grid-columns: calc(340px + (440 - 340)*(100vw - 769px)/(1024 - 769)) calc(28px + (32 - 28)*(100vw - 769px)/(1024 - 769)) 1fr;
-    grid-template-columns: calc(340px + (440 - 340)*(100vw - 769px)/(1024 - 769)) 1fr;
-    grid-gap: calc(28px + (32 - 28)*(100vw - 769px)/(1024 - 769));
+    -ms-grid-columns:  340px 28px 1fr;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 28px;
   }
 }
 

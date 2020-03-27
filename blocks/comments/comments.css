@@ -5,23 +5,29 @@
   margin: 4.25em auto 0;
 }
 
+
+@media all and (min-width: 1280px) {
+  .comments {
+    max-width: 1084px;
+  }
+}
+
+
 @media all and (max-width: 768px) {
   .comments {
     max-width: 660px;
-    margin: 4.25em auto 0;
   }
 }
 
 @media all and (max-width: 767px) {
   .comments {
     max-width: 343px;
-    margin: calc(64px + (102 - 64)*(100vw - 376px)/(767 - 376)) auto 0;
+    margin: 4rem auto 0;
   }
 }
 
 @media all and (max-width: 375px) {
   .comments {
     max-width: 288px;
-    margin: 4rem auto 0;
   }
 }

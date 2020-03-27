@@ -21,7 +21,7 @@
 
 @media all and (max-width: 768px) {
   .photo-grid {
-    margin: calc(64px + (102 - 64)*(100vw - 376px)/(768 - 376)) 1em 0;
+    margin: 4.25em 1em 0;
     -ms-grid-columns: 1fr 1rem 1fr;
     grid-template-columns: repeat(2, 1fr);
   }

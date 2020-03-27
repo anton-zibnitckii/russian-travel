@@ -1,3 +1,16 @@
 .intro__item {
   list-style-type: none;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media all and (max-width: 375px) {
+  .intro__item {
+    margin: 0;
+    font-size: 12px;
+    line-height: 19px;
+  }
 }
