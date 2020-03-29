@@ -31,6 +31,13 @@
     padding-bottom: 1em;
   }
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 722px;
+    margin: 4.25em 1em 0;
+    padding-bottom: 1em;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .footer {

@@ -13,7 +13,7 @@
       -ms-flex-align: end;
           align-items: flex-end;
   max-width: 928px;
-  margin: 0 2em;
+  margin: 0 auto;
   padding-top: 1.25em;
 }
 
@@ -21,6 +21,12 @@
   .header {
     max-width: 1184px;
     margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .header {
+    margin: 0 2em;
   }
 }
 

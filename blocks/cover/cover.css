@@ -10,7 +10,7 @@
   z-index: 2;
 }
 
-.cover:hover .cover__opacity {
+.cover:hover .cover__image {
   opacity: .8;
 }
 

@@ -1,5 +1,4 @@
-.header__lang_status-active:active {
+.header__lang_status-active {
   pointer-events: none;
   text-decoration: underline;
-  opacity: .8;
 }
