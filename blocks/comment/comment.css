@@ -1,7 +1,6 @@
 @import url(./__quote/comment__quote.css);
 @import url(./__image/comment__image.css);
 @import url(./__author/comment__author.css);
-@import url(./__text/comment__text.css);
 
 .comment {
   margin: 0 auto;
@@ -20,5 +19,3 @@
     "quote";
   }
 }
-
-/* у меня в ревью указано, что где то в этом блоке или элементах этого блока есть замечение, но комментарияъ нигде нет */

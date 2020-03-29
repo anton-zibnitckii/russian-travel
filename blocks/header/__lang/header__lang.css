@@ -1,7 +1,7 @@
-@import url(./_status/header__lang_status-active.css);
-@import url(./_status/header__lang_status-inactive.css);
+@import url(./_status/header__lang_status_active.css);
 
 .header__lang {
+  text-decoration: none;
   margin-left: 18px;
   font-size: 1em;
   line-height: 23px;
